@@ -2,7 +2,7 @@ export const navItems = [
 	{ name: 'About', link: '#about' },
 	{ name: 'Projects', link: '#projects' },
 	{ name: 'Testimonials', link: '#testimonials' },
-	{ name: 'Certifications', link: '#certifications' },
+	// { name: 'Certifications', link: '#certifications' },
 	{ name: 'Contact', link: '#contact' },
 ];
 
@@ -79,6 +79,7 @@ export const projects = [
 		img: '/netflix.png',
 		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
 		link: 'https://netflix-clone-lido.vercel.app',
+    github:"https://github.com/LidoHon"
 	},
 	{
 		id: 2,
@@ -87,6 +88,7 @@ export const projects = [
 		img: '/amazon.png',
 		iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
 		link: 'https://exquisite-rabanadas-f7691d.netlify.app',
+    github:"https://github.com/LidoHon"
 	},
 	{
 		id: 3,
@@ -95,14 +97,16 @@ export const projects = [
 		img: '/evangadi_forum.png',
 		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
 		link: 'https://github.com/LidoHon/Evangadi_Forum.git',
+    github:"https://github.com/LidoHon"
 	},
 	{
 		id: 4,
 		title: 'Job search ',
-		des: '',
+		des: 'a job search project built using react and react bootstrap',
 		img: 'netflix_home.png',
 		iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
 		link: 'https://github.com/LidoHon/job-search-Reach-project.git',
+    github:"https://github.com/LidoHon"
 	},
 ];
 
@@ -183,14 +187,17 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: '/git.svg',
+    link:"https://github.com/LidoHon"
 	},
 	{
 		id: 2,
 		img: '/twit.svg',
+    link:"https://x.com/LidoHon"
 	},
 	{
 		id: 3,
 		img: '/link.svg',
+		link:"https://www.linkedin.com/in/lido-hon-00a8ba242/"
 	},
 ];
 
