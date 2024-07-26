@@ -10,7 +10,7 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-
+import Certifications from "@/components/Certification";
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
@@ -19,6 +19,7 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Certifications/>
         {/* <Clients /> */}
         {/* <Experience /> */}
         <Approach />
