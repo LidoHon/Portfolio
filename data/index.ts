@@ -212,7 +212,7 @@ export const certifications = [
 	},
 
 	{
-		id: 3,
+		id: 2,
 		title: 'Aws Cloud Technical Essentials ',
 		institution: 'Coursera',
 		year: 2023,
@@ -227,7 +227,7 @@ export const certifications = [
 		image: '/alx.png',
 	},
 		{
-		id: 3,
+		id: 4,
 		title: 'Migrating to the AWS Cloud',
 		institution: 'Coursera',
 		year: 2023,
@@ -235,10 +235,10 @@ export const certifications = [
 		link: 'https://coursera.org/share/d3bf489ac393f00f4181f59eae45b3fe',
 	},
 		{
-		id: 2,
+		id: 5,
 		title: 'Full-Stack Web Development',
 		institution: 'Evangadi Networks',
 		year: 2024,
-		image: '/cert2.svg',
+		image: '/migrating_to_aws_cloud.png',
 	},
 ];

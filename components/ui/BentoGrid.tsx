@@ -68,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "liduhon3@gmail.com";
+    const text = "lidethonelign43@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -94,7 +94,7 @@ backgroundColor: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,51,1) 77%, 
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <image
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover object-center ")}
@@ -106,7 +106,7 @@ backgroundColor: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,51,1) 77%, 
             } `}
         >
           {spareImg && (
-            <img
+            <image
               src={spareImg}
               alt={spareImg}
               //   width={220}
@@ -182,7 +182,7 @@ backgroundColor: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,51,1) 77%, 
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                {/* <image src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 

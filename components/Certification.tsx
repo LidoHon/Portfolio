@@ -38,13 +38,13 @@ const Certifications = () => {
                 rel="noopener noreferrer"
                 className="block relative"
               >
-                <img
+                <image
                   src={cert.image.includes('drive.google.com') ? `https://drive.google.com/uc?export=view&id=${cert.image.split('/')[5]}` : cert.image}
                   alt={cert.title}
                   className="w-full h-40 object-cover rounded-md shadow-md"
                 />
                 {cert.link && (
-                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-purple opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4 font-bold">
+                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4 font-bold">
                     <p>View Certificate</p>
                   </div>
                 )}
