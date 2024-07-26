@@ -1,8 +1,8 @@
 export const navItems = [
 	{ name: 'About', link: '#about' },
 	{ name: 'Projects', link: '#projects' },
-	{ name: 'Testimonials', link: '#testimonials' },
-	// { name: 'Certifications', link: '#certifications' },
+	// { name: 'Testimonials', link: '#testimonials' },
+	{ name: 'Certifications', link: '#certifications' },
 	{ name: 'Contact', link: '#contact' },
 ];
 
@@ -10,8 +10,8 @@ export const gridItems = [
 	{
 		id: 1,
 		title:
-			'I value working closely with clients and maintaining clear communication.',
-		description: '',
+			'I value working closely with clients and maintaining clear communication',
+		description: 'a little bit about me',
 		className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
 		imgClassName: 'w-full h-full',
 		titleClassName: 'justify-end',
@@ -40,7 +40,7 @@ export const gridItems = [
 	},
 	{
 		id: 4,
-		title: 'Tech enthusiast with a passion for development.',
+		title: 'Tech enthusiast with a passion for development',
 		description: '',
 		className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
 		imgClassName: '',
@@ -51,7 +51,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: 'Currently building an ecommerce website',
+		title: 'Currently working on  some side projects.',
 		description: 'The Inside Scoop',
 		className: 'md:col-span-3 md:row-span-2',
 		imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -62,7 +62,7 @@ export const gridItems = [
 	{
 		id: 6,
 		title: 'Wanna work together?',
-		description: '',
+		// description: 'get in touch',
 		className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
 		imgClassName: '',
 		titleClassName: 'justify-center md:max-w-full max-w-60 text-center',
@@ -207,20 +207,34 @@ export const certifications = [
 		title: 'Backend Development and Apis',
 		institution: 'FreeCode Camp',
 		year: 2024,
-		img: 'https://drive.google.com/file/d/15vZw4Q8HWaiA5uo1ORpvcFu2DBCZzUN8/view?usp=sharing',
+		image: 'https://drive.google.com/file/d/15vZw4Q8HWaiA5uo1ORpvcFu2DBCZzUN8/view?usp=sharing',
 	},
 	{
 		id: 2,
 		title: 'Full-Stack Web Development',
-		institution: 'Udemy',
+		institution: 'Evangadi Networks',
 		year: 2021,
-		img: '/cert2.svg',
+		image: '/cert2.svg',
 	},
 	{
 		id: 3,
 		title: 'React and Redux Mastery',
 		institution: 'Coursera',
 		year: 2023,
-		img: '/cert3.svg',
+		image: '/cert3.svg',
+	},
+	{
+		id: 3,
+		title: 'AWS thecnical essintials',
+		institution: 'Coursera',
+		year: 2023,
+		image: '/cert3.svg',
+	},
+		{
+		id: 3,
+		title: 'AWS thecnical essintials',
+		institution: 'Coursera',
+		year: 2023,
+		image: '/cert3.svg',
 	},
 ];
