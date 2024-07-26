@@ -77,7 +77,7 @@ export const projects = [
 		title: 'Netflix clone',
 		des: 'Netflix clone built with Next.js, MongoDB, Prisma, and React',
 		img: '/netflix.png',
-		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/fm.svg'],
 		link: 'https://netflix-clone-lido.vercel.app',
     github:"https://github.com/LidoHon"
 	},
@@ -86,7 +86,7 @@ export const projects = [
 		title: 'Amazon-Clone',
 		des: 'Amazon clone developed using React, Firebase, and Tailwind CSS".',
 		img: '/amazon.png',
-		iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
+		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/c.svg'],
 		link: 'https://exquisite-rabanadas-f7691d.netlify.app',
     github:"https://github.com/LidoHon"
 	},
@@ -95,18 +95,18 @@ export const projects = [
 		title: 'Evangadi Forum',
 		des: 'Evangadi Forum: A platform where students can ask and answer questions, and engage with each other. Built with React, MongoDB, and Tailwind CSS."',
 		img: '/evangadi_forum.png',
-		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
+		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/c.svg'],
 		link: 'https://github.com/LidoHon/Evangadi_Forum.git',
     github:"https://github.com/LidoHon"
 	},
 	{
 		id: 4,
-		title: 'Job search ',
-		des: 'a job search project built using react and react bootstrap',
-		img: 'netflix_home.png',
-		iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-		link: 'https://github.com/LidoHon/job-search-Reach-project.git',
-    github:"https://github.com/LidoHon"
+		title: 'Book shelf ',
+		des: 'A React application developed for a Udemy class challenge, allowing users to manage and organize their book collections with features for adding, removing, and categorizing books',
+		img: '/bookshelf.png',
+		iconLists: [ '/re.svg','/tail.svg', '/ts.svg', , '/gsap.svg'],
+		link: 'https://book-shelf-snowy.vercel.app/',
+    github:"https://github.com/LidoHon/bookShelf"
 	},
 ];
 

@@ -17,8 +17,8 @@ const Certifications = () => {
   };
 
   return (
-    <section id="certifications" className="py-20">
-      <h1 className="heading pb-5">
+    <section id="certifications" className="py-20 ">
+      <h1 className="heading pb-10">
         My <span className="text-purple">Certifications</span>
       </h1>
 
