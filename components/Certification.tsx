@@ -18,7 +18,7 @@ const Certifications = () => {
 
   return (
     <section id="certifications" className="py-20">
-      <h1 className="heading pb-5" >
+      <h1 className="heading pb-5">
         My <span className="text-purple">Certifications</span>
       </h1>
 
@@ -30,23 +30,30 @@ const Certifications = () => {
           {certifications.map((cert) => (
             <div
               key={cert.id}
-              className="flex-shrink-0 w-64 md:w-72 mx-4"
+              className="flex-shrink-0 w-64 md:w-72 mx-4 relative group"
             >
               <a
-                href={cert.image}
+                href={cert.link || cert.image}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block"
+                className="block relative"
               >
                 <img
                   src={cert.image.includes('drive.google.com') ? `https://drive.google.com/uc?export=view&id=${cert.image.split('/')[5]}` : cert.image}
                   alt={cert.title}
-                  className="w-full h-auto object-cover rounded-md shadow-md"
+                  className="w-full h-40 object-cover rounded-md shadow-md"
                 />
+                {cert.link && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-purple opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4 font-bold">
+                    <p>View Certificate</p>
+                  </div>
+                )}
               </a>
-              <h2 className="mt-2 text-lg font-semibold">{cert.title}</h2>
-              <p className="text-sm text-gray-500">{cert.institution}</p>
-              <p className="text-xs text-gray-400">{cert.year}</p>
+              <div className="p-4">
+                <h2 className="text-lg font-semibold">{cert.title}</h2>
+                <p className="text-sm text-gray-500">{cert.institution}</p>
+                <p className="text-xs text-gray-400">{cert.year}</p>
+              </div>
             </div>
           ))}
         </div>

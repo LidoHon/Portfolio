@@ -1,6 +1,6 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaGithub } from "react-icons/fa";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
@@ -66,17 +66,27 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-               <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center"
-                >
-                  <p className="lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </a>
+                <div className="flex items-center">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center me-4"
+                  >
+                    <p className="lg:text-md md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </a>
+                  <a
+                    href={item.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center"
+                  >
+                    <FaGithub size={10} className="text-gray-300 lg:w-8 lg:h-8 w-6 h-6" />
+                  </a>
+                </div>
               </div>
             </PinContainer>
           </div>
