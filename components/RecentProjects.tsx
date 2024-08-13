@@ -70,7 +70,7 @@ const RecentProjects = () => {
 										rel="noopener noreferrer"
 										className="flex items-center me-4"
 									>
-										<p className="lg:text-md md:text-xs text-sm text-purple">
+										<p className="lg:text-md md:text-md text-lg text-purple">
 											Check Live Site
 										</p>
 										<FaLocationArrow className="ms-3" color="#CBACF9" />
