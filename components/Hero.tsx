@@ -57,7 +57,8 @@ const Hero = () => {
 					/>
 
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-						Hello! I&apos;m Ldet Honelign, a junior web developer based Addis Ababa.
+						Hello! I&apos;m Ldet Honelign, a junior web developer based on Addis
+						Ababa.
 					</p>
 
 					<a href="#about">

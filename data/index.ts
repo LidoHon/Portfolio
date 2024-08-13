@@ -51,7 +51,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: 'Currently working on  some side projects.',
+		title: "Currently Developing Abe's Garage: A Full Stack website.",
 		description: 'The Inside Scoop',
 		className: 'md:col-span-3 md:row-span-2',
 		imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -74,39 +74,46 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: 'Netflix clone',
-		des: 'Netflix clone built with Next.js, MongoDB, Prisma, and React',
-		img: '/netflix.png',
-		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/fm.svg'],
-		link: 'https://netflix-clone-lido.vercel.app',
-    github:"https://github.com/LidoHon"
+		title: 'Evangadi Forum',
+		des: 'Evangadi Forum: A platform where students can ask and answer questions, and engage with each other. Built with React, Mysql database, and Tailwind CSS."',
+		img: '/evangadi_forum.png',
+		iconLists: [
+			'/re.svg',
+			'/tail.svg',
+			'Node.png',
+			'JavaScript-logo.png',
+			'mysql.png',
+		],
+		link: 'http://www.forumevangadi.com',
+		github: 'https://github.com/LidoHon/Evangadi_Forum.git',
 	},
+
 	{
 		id: 2,
 		title: 'Amazon-Clone',
 		des: 'Amazon clone developed using React, Firebase, and Tailwind CSS".',
 		img: '/amazon.png',
-		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/c.svg'],
+		iconLists: ['/re.svg', '/tail.svg', 'JavaScript-logo.png', 'firebase.png'],
 		link: 'https://exquisite-rabanadas-f7691d.netlify.app',
-    github:"https://github.com/LidoHon"
+		github: 'https://github.com/LidoHon',
 	},
 	{
 		id: 3,
-		title: 'Evangadi Forum',
-		des: 'Evangadi Forum: A platform where students can ask and answer questions, and engage with each other. Built with React, MongoDB, and Tailwind CSS."',
-		img: '/evangadi_forum.png',
-		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/c.svg'],
-		link: 'https://github.com/LidoHon/Evangadi_Forum.git',
-    github:"https://github.com/LidoHon"
+		title: 'Netflix clone',
+		des: 'Netflix clone built with Next.js, MongoDB, Prisma, and React',
+		img: '/netflix.png',
+		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', 'next.png', 'MongoDB.jpg'],
+		link: 'https://netflix-clone-lido.vercel.app',
+		github: 'https://github.com/LidoHon',
 	},
 	{
 		id: 4,
 		title: 'Book shelf ',
 		des: 'A React application developed for a Udemy class challenge, allowing users to manage and organize their book collections with features for adding, removing, and categorizing books',
 		img: '/bookshelf.png',
-		iconLists: [ '/re.svg','/tail.svg', '/ts.svg', , '/gsap.svg'],
+		iconLists: ['/re.svg', '/tail.svg', 'JavaScript-logo.png'],
 		link: 'https://book-shelf-snowy.vercel.app/',
-    github:"https://github.com/LidoHon/bookShelf"
+		github: 'https://github.com/LidoHon/bookShelf',
 	},
 ];
 
@@ -187,17 +194,17 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: '/git.svg',
-    link:"https://github.com/LidoHon"
+		link: 'https://github.com/LidoHon',
 	},
 	{
 		id: 2,
 		img: '/twit.svg',
-    link:"https://x.com/LidoHon"
+		link: 'https://x.com/LidoHon',
 	},
 	{
 		id: 3,
 		img: '/link.svg',
-		link:"https://www.linkedin.com/in/lido-hon-00a8ba242/"
+		link: 'https://www.linkedin.com/in/lido-hon-00a8ba242/',
 	},
 ];
 
@@ -208,7 +215,7 @@ export const certifications = [
 		institution: 'FreeCode Camp',
 		year: 2024,
 		image: '/backend.png',
-		link:"https://freecodecamp.org/certification/lido_hon/back-end-development-and-apis"
+		link: 'https://freecodecamp.org/certification/lido_hon/back-end-development-and-apis',
 	},
 
 	{
@@ -217,7 +224,7 @@ export const certifications = [
 		institution: 'Coursera',
 		year: 2023,
 		image: '/aws_essin.png',
-		link:"https://coursera.org/share/de1b0f3e700f96c96c0c4496247b53fc"
+		link: 'https://coursera.org/share/de1b0f3e700f96c96c0c4496247b53fc',
 	},
 	{
 		id: 3,
@@ -226,7 +233,7 @@ export const certifications = [
 		year: 2024,
 		image: '/alx.png',
 	},
-		{
+	{
 		id: 4,
 		title: 'Migrating to the AWS Cloud',
 		institution: 'Coursera',
@@ -234,7 +241,7 @@ export const certifications = [
 		image: '/migrating_to_aws_cloud.png',
 		link: 'https://coursera.org/share/d3bf489ac393f00f4181f59eae45b3fe',
 	},
-		{
+	{
 		id: 5,
 		title: 'Full-Stack Web Development',
 		institution: 'Evangadi Networks',
