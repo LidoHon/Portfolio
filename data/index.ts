@@ -220,14 +220,14 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/lido-hon-00a8ba242/",
+    link: "https://www.linkedin.com/in/lidet-honelign-00a8ba242/",
   },
 ];
 
 export const certifications = [
   {
     id: 1,
-    title: "Backend Development and Apis",
+    title: "Backend Development and APIs",
     institution: "FreeCode Camp",
     year: 2024,
     image: "/backend.png",
@@ -236,7 +236,7 @@ export const certifications = [
 
   {
     id: 2,
-    title: "Aws Cloud Technical Essentials ",
+    title: "AWS Cloud Technical Essentials ",
     institution: "Coursera",
     year: 2023,
     image: "/aws_essin.png",
