@@ -115,12 +115,12 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Netflix clone",
-    des: "Netflix clone built with Next.js, MongoDB, Prisma, and React",
-    img: "/netflix.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.png", "MongoDB.jpg"],
-    link: "https://netflix-clone-lido.vercel.app",
-    github: "https://github.com/LidoHon/Netflix-Clone-Nextjs-.git",
+    title: "Room Booking App",
+    des: "Room Booking App is a web application built with Next.js, Appwrite, and Tailwind CSS.",
+    img: "/screen.png",
+    iconLists: ["/app.svg", "/tail.svg", "/ts.svg", "next.png"],
+    link: "https://bookit-puce.vercel.app/",
+    github: "https://github.com/LidoHon/bookit.git",
   },
   // {
   // 	id: 4,
@@ -227,6 +227,14 @@ export const socialMedia = [
 export const certifications = [
   {
     id: 1,
+    title: "Full-Stack Web Development",
+    institution: "Evangadi Networks",
+    year: 2024,
+    image: "/LdetHonelignAssefa.jpg",
+    link: "https://drive.google.com/file/d/17qBQ2ybN9oyo-JqTOItIrWVJSeMV1JcC/view?usp=sharing",
+  },
+  {
+    id: 2,
     title: "Backend Development and APIs",
     institution: "FreeCode Camp",
     year: 2024,
@@ -235,20 +243,14 @@ export const certifications = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "AWS Cloud Technical Essentials ",
     institution: "Coursera",
     year: 2023,
     image: "/aws_essin.png",
     link: "https://coursera.org/share/de1b0f3e700f96c96c0c4496247b53fc",
   },
-  {
-    id: 3,
-    title: "AI Career Essintials",
-    institution: "ALX",
-    year: 2024,
-    image: "/alx.png",
-  },
+
   {
     id: 4,
     title: "Migrating to the AWS Cloud",
@@ -259,9 +261,16 @@ export const certifications = [
   },
   {
     id: 5,
-    title: "Full-Stack Web Development",
-    institution: "Evangadi Networks",
+    title: "AI Career Essintials",
+    institution: "ALX",
     year: 2024,
-    image: "/migrating_to_aws_cloud.png",
+    image: "/alx.png",
   },
+  // {
+  //   id: 5,
+  //   title: "Full-Stack Web Development",
+  //   institution: "Evangadi Networks",
+  //   year: 2024,
+  //   image: "/LdetHonelignAssefa.jpg",
+  // },
 ];
