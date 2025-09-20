@@ -74,6 +74,62 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Fanos LMS",
+    des: 'Fanos LMS, an online learning platform that provides free courses for Ethiopian high school students. The platform focuses on national exam preparation and STEM education through the STEEP program, delivering an accessible and user-friendly learning experience."',
+    img: "/fan.png",
+    iconLists: [
+      "nuxt.svg",
+      "vue.png",
+      "/tail.svg",
+      "Node.png",
+      "JavaScript-logo.png",
+    ],
+    link: "https://www.fanoslms.org/",
+  },
+  {
+    id: 2,
+    title: "Minab Tech Portfolio Website",
+    des: "Tech’s official portfolio website, showcasing the company’s projects, services, and achievements with a modern, responsive, and user-friendly design.",
+    img: "/minab.png",
+    iconLists: [
+      "nuxt.svg",
+      "vue.png",
+      "/tail.svg",
+      "Node.png",
+      "JavaScript-logo.png",
+    ],
+    link: "https://www.minabtech.com/",
+  },
+  {
+    id: 3,
+    title: "RBY Foundation",
+    des: "RBY Foundation website, an NGO platform designed to support children in need by enabling people to donate money, resources, and essential items",
+    img: "/rby.png",
+    iconLists: [
+      "nuxt.svg",
+      "vue.png",
+      "/tail.svg",
+      "Node.png",
+      "JavaScript-logo.png",
+    ],
+    link: "https://www.rbyfoundation.org/",
+  },
+  {
+    id: 1,
+    title: "Hold My Hands",
+    des: 'Hold My Hands: A Platform where people gather to help kids that are in need of help. Built with nuxtjs and Tailwind CSS."',
+    img: "/hold.png",
+    iconLists: [
+      "nuxt.svg",
+      "vue.png",
+      "/tail.svg",
+      "Node.png",
+      "JavaScript-logo.png",
+    ],
+    link: "https://www.holdmyhandloved.org/",
+  },
+  {
+    id: 2,
     title: "Evangadi Forum",
     des: 'Evangadi Forum: A platform where students can ask and answer questions, and engage with each other. Built with React, Mysql database, and Tailwind CSS."',
     img: "/evangadi_forum.png",
@@ -88,7 +144,7 @@ export const projects = [
     github: "https://github.com/LidoHon/Evangadi-Forum-G2.git",
   },
   {
-    id: 2,
+    id: 3,
     title: "Health Care Management System",
     des: "A comprehensive web application designed to streamline and manage patient care and administrative tasks in a healthcare setting. Features include appointment scheduling, patient management, SMS notifications, and an admin dashboard.",
     img: "/healthcare.png",
@@ -105,7 +161,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Amazon-Clone",
     des: 'Amazon clone developed using React, Firebase, and Tailwind CSS".',
     img: "/amazon.png",
@@ -114,7 +170,7 @@ export const projects = [
     github: "https://github.com/LidoHon/amazon-clone.git",
   },
   {
-    id: 4,
+    id: 5,
     title: "Room Booking App",
     des: "Room Booking App is a web application built with Next.js, Appwrite, and Tailwind CSS.",
     img: "/screen.png",
@@ -178,32 +234,32 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "juniour Frontend software developer | MInab Tech",
+    desc: " I am a Frontend Software Developer at Minab Tech, specializing in building responsive and user-friendly web applications using Vue.js and Nuxt.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    id: 2,
+    title: "Full Stack Intern",
+    desc: "Assisted in the development of a web-based platform using vuejs, nuxtjs, and tailwind.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
   },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
