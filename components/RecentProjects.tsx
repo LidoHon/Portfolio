@@ -75,7 +75,8 @@ const RecentProjects = () => {
                     </p>
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </a>
-                  <a
+                  {/* <a
+                    v-if={item.github}
                     href={item.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -85,7 +86,7 @@ const RecentProjects = () => {
                       size={10}
                       className="text-gray-300 lg:w-8 lg:h-8 w-6 h-6"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </PinContainer>

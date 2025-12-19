@@ -4,7 +4,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import dynamic from "next/dynamic";
 
 // Dynamically import components that use browser APIs
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+// const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 const BackgroundGradientAnimation = dynamic(
   () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
@@ -55,8 +55,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Express", "Node", "NextJs"];
-  const rightLists = ["mongoDB", "PostgreSQL", "mysql"];
+  const leftLists = ["Nuxt.js", "Vuejs", "TailwindCSS"];
+  const rightLists = ["javascript", "Typescript", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -168,7 +168,7 @@ export const BentoGridItem = ({
                   copied ? "block" : "block"
                 }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
               </div>
 
               <MagicButton
